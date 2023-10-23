@@ -27,7 +27,7 @@ export default function Home() {
               checkout({
                 lineItems: [
                   {
-                    price: "price_1KmmMDAFPWVcpdFFZWnMTT7Z",
+                    price: "price_1O4JeDSAAbl28UHdquw7wH1w",
                     quantity: 1
                   }
                 ]
