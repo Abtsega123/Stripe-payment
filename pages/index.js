@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Buy my physical NFTs</h1>
+        <h1 className={styles.title}>🚀Cyberguard🚀</h1>
         <div className={styles.grid}>
           <div>
             <Image
@@ -22,7 +22,8 @@ export default function Home() {
               width={400}
               height={400}
             />
-            <p>Very expensive art piece 1</p>
+            {/* <p>Very expensive art piece 1</p> */}
+            <br />
             <button onClick={(() => {
               checkout({
                 lineItems: [
@@ -32,9 +33,9 @@ export default function Home() {
                   }
                 ]
               })
-            })}>BUY!</button>
+            })}>Donate!</button>
           </div>
-          <div>
+          {/* <div>
             <Image
               src="/images/Stick2.jpg"
               alt="NFT"
@@ -42,7 +43,7 @@ export default function Home() {
               height={400}
             />
             <p>Very expensive art piece 2</p>
-          </div>
+          </div> */}
         </div>
       </main>
     </div>
